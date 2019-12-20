@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?hk2c7');
+  src:  url('icomoon.eot?hk2c7#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?hk2c7') format('truetype'),
+    url('icomoon.woff?hk2c7') format('woff'),
+    url('icomoon.svg?hk2c7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-clojure:before {
+  content: "\e940";
+  color: #5881d8;
+}
+.icon-facebook:before {
+  content: "\e993";
+  color: #4172b8;
+}
+.icon-github:before {
+  content: "\e9b2";
+}
+.icon-gmail:before {
+  content: "\e9b6";
+  color: #d14836;
+}
+.icon-googleplus:before {
+  content: "\e9c7";
+  color: #dc4e41;
+}
+.icon-instagram:before {
+  content: "\e9f1";
+  color: #e4405f;
+}
+.icon-pinterest:before {
+  content: "\ea86";
+  color: #bd081c;
+}
+.icon-reddit:before {
+  content: "\eaac";
+  color: #ff4500;
+}
+.icon-snapchat:before {
+  content: "\ead8";
+  color: #fffc00;
+}
+.icon-tinder:before {
+  content: "\eb11";
+  color: #ff6b6b;
+}
+.icon-twitter:before {
+  content: "\eb21";
+  color: #1da1f2;
+}
+.icon-whatsapp:before {
+  content: "\eb46";
+  color: #25d366;
+}
+.icon-youtube:before {
+  content: "\eb5f";
+  color: #f00;
+}
